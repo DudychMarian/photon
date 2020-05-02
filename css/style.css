@@ -1,0 +1,158 @@
+/* Created by Marian Dudych */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  /* padding-top: 100px; */
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/forest.jpg) no-repeat top;
+  background-size: 100%;
+  background-position-y: -130px;
+}
+
+header h2 {
+  padding: 2rem;
+}
+
+#logo {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #fff;
+  max-width: 650px;
+}
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+
+.search-form input {
+  font-size: 2rem;
+  min-width: 600px;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(74, 68, 131);
+  padding: 0.9rem 1.25rem;
+  border-radius: 9px 0 0 9px;
+}
+
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: rgb(74, 68, 131);
+  color: white;
+  cursor: pointer;
+  border-radius: 0 9px 9px 0;
+}
+
+.gallery-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #888888;
+  padding: 0.5rem 0rem;
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-radius: 9px 9px 0 0;
+  margin-top: 50px;
+}
+
+.gallery-info a {
+  color: #888888;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-img img {
+  object-fit: cover;
+  border-radius: 0 0 9px 9px;
+  width: 350px;
+  height: 526px;
+}
+
+/* .gallery-img img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  padding: 1rem 3rem;
+  background: rgb(74, 68, 131);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.footer {
+  background-color: #fafafa;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.link {
+  padding: 30px;
+  text-decoration: none;
+  color: #888888;
+}
+
+.footer-title {
+  color: #888888;
+  font-size: 18px;
+}
+
+.creator {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right: 70px;
+}
