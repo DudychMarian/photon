@@ -15,7 +15,7 @@ header {
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   background: url(../img/forest.jpg) no-repeat top;
@@ -23,15 +23,24 @@ header {
   background-position-y: -130px;
 }
 
+.logo-img {
+  padding-top: 10px;
+  display: flex;
+  margin: auto;
+  width: 236px;
+  height: 236px;
+}
+
 header h2 {
   padding: 2rem;
 }
 
 #logo {
+  margin: auto;
   font-size: 36px;
   line-height: 48px;
   font-weight: 700;
-  margin-top: 0;
+  margin-top: 60px;
   margin-bottom: 15px;
   color: #fff;
   max-width: 650px;
@@ -44,8 +53,7 @@ header h2 {
 
 .search-form input {
   font-size: 2rem;
-  min-width: 600px;
-  width: 100%;
+  width: 600px;
   border: none;
   border: 2px solid rgb(74, 68, 131);
   padding: 0.9rem 1.25rem;
@@ -154,7 +162,7 @@ header h2 {
   text-decoration: none;
   font-size: 20px;
   color: black;
-  margin-right: 70px;
+  margin-left: 5px;
 }
 
 @media (max-width: 1200px) {
@@ -180,15 +188,26 @@ header h2 {
   .footer-title {
     margin: 40px 0;
   }
-
-  .a18622da_e04c_41fc_b6ea_82a9b5417c40_6bd79e10_5bb8_4d3b_a208_ccc01b469bf4_root {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 992px) {
   .container {
     width: 720px;
+  }
+
+  .gallery-img img {
+    width: 340px;
+    height: 526px;
+  }
+
+  header {
+    background-size: 200%;
+  }
+
+  #logo {
+    display: flex;
+    font-size: 32px;
+    text-align: center;
   }
 }
 
@@ -196,10 +215,67 @@ header h2 {
   .container {
     width: 540px;
   }
+
+  .gallery {
+    text-align: center;
+  }
+
+  header {
+    background-size: 300%;
+  }
+
+  .gallery-img img {
+    width: 540px;
+    height: 526px;
+  }
+
+  .search-form input {
+    width: 480px;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  #logo {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .search-form {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
+  }
+
+  .gallery-img img {
+    width: 90%;
+    height: 526px;
+  }
+
+  header {
+    background-size: 500%;
+  }
+
+  .search-form input {
+    width: 80%;
+  }
+
+  .search-form {
+    width: 80%;
+  }
+
+  #logo {
+    font-size: 20px;
+  }
+
+  .gallery-info {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
   }
 }
