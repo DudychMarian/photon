@@ -156,3 +156,50 @@ header h2 {
   color: black;
   margin-right: 70px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .gallery-img img {
+    width: 300px;
+    height: 498px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-title {
+    margin: 40px 0;
+  }
+
+  .a18622da_e04c_41fc_b6ea_82a9b5417c40_6bd79e10_5bb8_4d3b_a208_ccc01b469bf4_root {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
